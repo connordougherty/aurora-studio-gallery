@@ -4924,5 +4924,7 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem; }
 
 /*# sourceMappingURL=bulma.css.map */
+.nav-item img {
+  max-height: 3rem; }
 
 /*# sourceMappingURL=style.css.map */

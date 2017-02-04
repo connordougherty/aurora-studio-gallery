@@ -1,1 +1,9 @@
-@import 'bulma'
+$blue: #27A3D9;
+
+$primary: $blue;
+
+@import 'bulma';
+
+.nav-item img {
+	max-height: 3rem;
+};

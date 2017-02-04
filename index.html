@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -21,7 +22,63 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <nav class="nav">
+          <div class="nav-left">
+            <a class="nav-item">
+              <img src="img/aurora-logo.jpg" alt="Aurora logo">
+            </a>
+          </div>
+
+          <div class="nav-center">
+            <a class="nav-item">
+              <span class="icon">
+                <i class="fa fa-github"></i>
+              </span>
+            </a>
+            <a class="nav-item">
+              <span class="icon">
+                <i class="fa fa-twitter"></i>
+              </span>
+            </a>
+          </div>
+
+          <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+          <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+
+          <!-- This "nav-menu" is hidden on mobile -->
+          <!-- Add the modifier "is-active" to display it on mobile -->
+          <div class="nav-right nav-menu">
+            <a class="nav-item">
+              ABOUT US
+            </a>
+            <a class="nav-item">
+              OUR ARTISTS
+            </a>
+            <a class="nav-item">
+              CALENDAR
+            </a>
+
+            <span class="nav-item">
+              <a class="button" >
+                <span class="icon">
+                  <i class="fa fa-twitter"></i>
+                </span>
+                <span>Tweet</span>
+              </a>
+              <a class="button is-primary">
+                <span class="icon">
+                  <i class="fa fa-download"></i>
+                </span>
+                <span>Download</span>
+              </a>
+            </span>
+          </div>
+        </nav>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
