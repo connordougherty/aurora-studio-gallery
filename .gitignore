@@ -2,3 +2,7 @@
 *.md
 
 LICENSE.txt
+
+*.scssc
+
+*.map
